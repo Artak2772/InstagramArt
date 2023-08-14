@@ -12,11 +12,13 @@ struct TabMainView: View {
     var body: some View {
         
         TabView {
-            Text("Feed")
+            
+            FeedView()
                 .tabItem {
                     Image(systemName: "house")
+                    
                 }
-            Text("Search")
+            SearchView()
                 .tabItem{
                     Image(systemName: "magnifyingglass")
                 }
@@ -29,7 +31,6 @@ struct TabMainView: View {
                     Image(systemName: "heart.fill")
                 }
             ProfileView()
-        
                 .tabItem{
                     Image(systemName: "person")
                 }
