@@ -22,6 +22,7 @@
 		A3BE01832A824702001AD0BA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE01822A824702001AD0BA /* ProfileView.swift */; };
 		A3FACB2F2A8A67A200A17046 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB2E2A8A67A200A17046 /* SearchView.swift */; };
 		A3FACB312A8A769C00A17046 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB302A8A769C00A17046 /* LoginView.swift */; };
+		A3FACB332A8ADEAD00A17046 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		A3BE01822A824702001AD0BA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A3FACB2E2A8A67A200A17046 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A3FACB302A8A769C00A17046 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				A3FACB302A8A769C00A17046 /* LoginView.swift */,
+				A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */,
 			);
 			name = Authentication;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				A347469A2A8A25FF00B61FFD /* FeedView.swift in Sources */,
 				A3BE01832A824702001AD0BA /* ProfileView.swift in Sources */,
 				A3BE01812A814BBF001AD0BA /* TabMainView.swift in Sources */,
+				A3FACB332A8ADEAD00A17046 /* AddEmailView.swift in Sources */,
 				A34746902A8655BC00B61FFD /* SwiftUIView.swift in Sources */,
 				A3FACB2F2A8A67A200A17046 /* SearchView.swift in Sources */,
 				A347469C2A8A261400B61FFD /* FeedCell.swift in Sources */,

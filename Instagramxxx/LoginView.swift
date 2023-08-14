@@ -14,7 +14,9 @@ struct LoginView: View {
     
     var body: some View {
         NavigationStack {
+            
             VStack {
+                Spacer()
                 Image("instagram")
                     .resizable()
                     .scaledToFit()
@@ -66,15 +68,53 @@ struct LoginView: View {
                 }
                 .padding(.vertical)
                 
+                HStack{
+                    Rectangle()
+                        .frame(width: (UIScreen.main.bounds.width / 2) - 50 ,height: 0.5 )
+                    Text("OR")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.gray)
+                    Rectangle()
+                        .frame(width: (UIScreen.main.bounds.width / 2) - 50 ,height: 0.5 )
+           }
+                .foregroundColor(.gray)
                 
+                HStack {
+                    Image("121")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40 ,height: 40)
+                    Text("Continue with Facebook")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color(.systemBlue))
+                    
+                    
+                }
+                .padding(.top,8)
                 
+                Spacer()
+                Divider()
                 
-            }
-            
+                NavigationLink {
+                    Text("Sign Up")
+                } label: {
+                    HStack {
+                        
+                        Text("Don't have an Acount ?")
+                        
+                        Text("Sign Up")
+                            .fontWeight(.semibold)
+                    }
+                    .font(.footnote)
+                    
+                }
+                .padding(.vertical,16)
         }
     }
 }
-
+                               }
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
