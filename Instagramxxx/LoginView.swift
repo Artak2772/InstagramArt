@@ -25,11 +25,7 @@ struct LoginView: View {
                 VStack {
                     TextField("Enter Your email", text: $Login)
                         .autocorrectionDisabled()
-                        .font(.headline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal,12)
+                        .modifier(IgTextFieldModifier())
                     
                     SecureField("Enter Your Password", text: $Password)
                         .autocorrectionDisabled()
@@ -98,7 +94,8 @@ struct LoginView: View {
                 Divider()
                 
                 NavigationLink {
-                    Text("Sign Up")
+                    AddEmailView()
+                        .navigationBarBackButtonHidden(true)
                 } label: {
                     HStack {
                         

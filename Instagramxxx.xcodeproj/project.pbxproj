@@ -23,6 +23,8 @@
 		A3FACB2F2A8A67A200A17046 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB2E2A8A67A200A17046 /* SearchView.swift */; };
 		A3FACB312A8A769C00A17046 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB302A8A769C00A17046 /* LoginView.swift */; };
 		A3FACB332A8ADEAD00A17046 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */; };
+		A3FACB352A8BD84200A17046 /* CreateUserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB342A8BD84200A17046 /* CreateUserName.swift */; };
+		A3FACB372A8BDABE00A17046 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB362A8BDABE00A17046 /* IGTextFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		A3FACB2E2A8A67A200A17046 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A3FACB302A8A769C00A17046 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		A3FACB342A8BD84200A17046 /* CreateUserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserName.swift; sourceTree = "<group>"; };
+		A3FACB362A8BDABE00A17046 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				A34746952A86795200B61FFD /* UserStatView.swift */,
+				A3FACB362A8BDABE00A17046 /* IGTextFieldModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				A3FACB302A8A769C00A17046 /* LoginView.swift */,
+				A3FACB342A8BD84200A17046 /* CreateUserName.swift */,
 				A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */,
 			);
 			name = Authentication;
@@ -292,12 +298,14 @@
 				A3BE01812A814BBF001AD0BA /* TabMainView.swift in Sources */,
 				A3FACB332A8ADEAD00A17046 /* AddEmailView.swift in Sources */,
 				A34746902A8655BC00B61FFD /* SwiftUIView.swift in Sources */,
+				A3FACB352A8BD84200A17046 /* CreateUserName.swift in Sources */,
 				A3FACB2F2A8A67A200A17046 /* SearchView.swift in Sources */,
 				A347469C2A8A261400B61FFD /* FeedCell.swift in Sources */,
 				A34746962A86795200B61FFD /* UserStatView.swift in Sources */,
 				A34746982A8802F900B61FFD /* SwiftUIViewjkj.swift in Sources */,
 				A3996E7F2A8270A500A06053 /* TraningVZHstack.swift in Sources */,
 				A3BE01682A8143BD001AD0BA /* ContentView.swift in Sources */,
+				A3FACB372A8BDABE00A17046 /* IGTextFieldModifier.swift in Sources */,
 				A3FACB312A8A769C00A17046 /* LoginView.swift in Sources */,
 				A34746922A8656E800B61FFD /* SwiftUIVieww.swift in Sources */,
 				A3BE01662A8143BD001AD0BA /* InstagramxxxApp.swift in Sources */,
@@ -435,8 +443,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,8 +472,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
