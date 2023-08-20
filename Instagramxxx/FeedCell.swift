@@ -8,22 +8,25 @@
 import SwiftUI
 
 struct FeedCell: View {
+    let post: Post
     var body: some View {
         VStack {
             HStack {
-                Image("222")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 40, height: 40)
-                    .clipShape(Circle())
-                Text("Audi")
-                    .font(.footnote)
-                    .fontWeight(.semibold)
-                Spacer()
+                if let user = post.user  {
+                    Image(post.imageUrl)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle())
+                    Text(user.username)
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                    Spacer()
+                }
             }
             .padding(.leading ,8)
             
-            Image("222")
+            Image(post.imageUrl)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 400)
@@ -56,15 +59,16 @@ struct FeedCell: View {
             .padding(.top , 4)
             .foregroundColor(.black)
             
-                Text("44 Like")
+            Text("\(post.like) Likes")
                     .font(.footnote)
                     .fontWeight(.semibold)
                     .frame( maxWidth: .infinity, alignment: .leading)
                     .padding(.leading,10)
                     .padding(.top,1)
             HStack{
-                Text("Audi").fontWeight(.semibold) +
-                Text("This is some test")
+                Text("\(post.user?.username ?? "")").fontWeight(.semibold)
+                Text(post.caption)
+                    
                     
             }
             .frame( maxWidth: .infinity,   alignment: .leading)
@@ -86,6 +90,6 @@ struct FeedCell: View {
 
 struct FeedCell_Previews: PreviewProvider {
     static var previews: some View {
-        FeedCell()
+        FeedCell(post: Post.MOC_POSTS[1])
     }
 }

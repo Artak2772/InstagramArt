@@ -30,7 +30,7 @@ struct TabMainView: View {
                 .tabItem{
                     Image(systemName: "heart.fill")
                 }
-            ProfileView()
+            CurrentUserProfileView(user: User.MOC_USERS[0])
                 .tabItem{
                     Image(systemName: "person")
                 }

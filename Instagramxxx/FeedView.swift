@@ -11,15 +11,15 @@ struct FeedView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack (spacing: 34){
-                    ForEach(0...30 , id: \.self ) { index in
-                        FeedCell()
+                LazyVStack (spacing: 16){
+                    ForEach(Post.MOC_POSTS) { post in
+                        FeedCell(post: post)
                     }
                     
                 }
                 .padding(.top,10)
             }
-            .padding(.bottom,100)
+            .padding(.bottom,0)
             
             .navigationTitle("Feed")
             .navigationBarTitleDisplayMode(.inline)
@@ -35,7 +35,7 @@ struct FeedView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Image(systemName: "paperplane")
-                        .imageScale(.medium)
+                        .imageScale(.large)
                         
                 }
             }

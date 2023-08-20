@@ -10,7 +10,7 @@
 		A34746902A8655BC00B61FFD /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347468F2A8655BC00B61FFD /* SwiftUIView.swift */; };
 		A34746922A8656E800B61FFD /* SwiftUIVieww.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34746912A8656E800B61FFD /* SwiftUIVieww.swift */; };
 		A34746962A86795200B61FFD /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34746952A86795200B61FFD /* UserStatView.swift */; };
-		A34746982A8802F900B61FFD /* SwiftUIViewjkj.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34746972A8802F900B61FFD /* SwiftUIViewjkj.swift */; };
+		A34746982A8802F900B61FFD /* TextLernSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34746972A8802F900B61FFD /* TextLernSystem.swift */; };
 		A347469A2A8A25FF00B61FFD /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34746992A8A25FF00B61FFD /* FeedView.swift */; };
 		A347469C2A8A261400B61FFD /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347469B2A8A261400B61FFD /* FeedCell.swift */; };
 		A3996E7F2A8270A500A06053 /* TraningVZHstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3996E7E2A8270A500A06053 /* TraningVZHstack.swift */; };
@@ -25,13 +25,21 @@
 		A3FACB332A8ADEAD00A17046 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */; };
 		A3FACB352A8BD84200A17046 /* CreateUserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB342A8BD84200A17046 /* CreateUserName.swift */; };
 		A3FACB372A8BDABE00A17046 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB362A8BDABE00A17046 /* IGTextFieldModifier.swift */; };
+		A3FACB392A8D5DF800A17046 /* BoundsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB382A8D5DF800A17046 /* BoundsCount.swift */; };
+		A3FACB3D2A8F633900A17046 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB3C2A8F633900A17046 /* CreatePasswordView.swift */; };
+		A3FACB3F2A8F65DF00A17046 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB3E2A8F65DF00A17046 /* CompleteSignUpView.swift */; };
+		A3FACB412A8F708400A17046 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB402A8F708400A17046 /* User.swift */; };
+		A3FACB432A8F91B700A17046 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB422A8F91B700A17046 /* CurrentUserProfileView.swift */; };
+		A3FACB452A8FC63A00A17046 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB442A8FC63A00A17046 /* Post.swift */; };
+		A3FACB472A8FE5DB00A17046 /* PostsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB462A8FE5DB00A17046 /* PostsGridView.swift */; };
+		A3FACB492A90E35100A17046 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FACB482A90E35100A17046 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A347468F2A8655BC00B61FFD /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		A34746912A8656E800B61FFD /* SwiftUIVieww.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVieww.swift; sourceTree = "<group>"; };
 		A34746952A86795200B61FFD /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
-		A34746972A8802F900B61FFD /* SwiftUIViewjkj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewjkj.swift; sourceTree = "<group>"; };
+		A34746972A8802F900B61FFD /* TextLernSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLernSystem.swift; sourceTree = "<group>"; };
 		A34746992A8A25FF00B61FFD /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		A347469B2A8A261400B61FFD /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		A3996E7D2A82705E00A06053 /* TrainingRoom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TrainingRoom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -48,6 +56,14 @@
 		A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		A3FACB342A8BD84200A17046 /* CreateUserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserName.swift; sourceTree = "<group>"; };
 		A3FACB362A8BDABE00A17046 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		A3FACB382A8D5DF800A17046 /* BoundsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundsCount.swift; sourceTree = "<group>"; };
+		A3FACB3C2A8F633900A17046 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		A3FACB3E2A8F65DF00A17046 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		A3FACB402A8F708400A17046 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A3FACB422A8F91B700A17046 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		A3FACB442A8FC63A00A17046 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A3FACB462A8FE5DB00A17046 /* PostsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsGridView.swift; sourceTree = "<group>"; };
+		A3FACB482A90E35100A17046 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +80,11 @@
 		A34746932A8658EC00B61FFD /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				A34746972A8802F900B61FFD /* TextLernSystem.swift */,
 				A34746912A8656E800B61FFD /* SwiftUIVieww.swift */,
-				A34746972A8802F900B61FFD /* SwiftUIViewjkj.swift */,
 				A347468F2A8655BC00B61FFD /* SwiftUIView.swift */,
 				A3996E7E2A8270A500A06053 /* TraningVZHstack.swift */,
+				A3FACB382A8D5DF800A17046 /* BoundsCount.swift */,
 				A3996E7D2A82705E00A06053 /* TrainingRoom.playground */,
 			);
 			path = "New Group";
@@ -78,6 +95,7 @@
 			children = (
 				A34746952A86795200B61FFD /* UserStatView.swift */,
 				A3FACB362A8BDABE00A17046 /* IGTextFieldModifier.swift */,
+				A3FACB462A8FE5DB00A17046 /* PostsGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -132,6 +150,8 @@
 		A3BE01752A8144D8001AD0BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A3FACB402A8F708400A17046 /* User.swift */,
+				A3FACB442A8FC63A00A17046 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -172,6 +192,8 @@
 				A3FACB302A8A769C00A17046 /* LoginView.swift */,
 				A3FACB342A8BD84200A17046 /* CreateUserName.swift */,
 				A3FACB322A8ADEAD00A17046 /* AddEmailView.swift */,
+				A3FACB3C2A8F633900A17046 /* CreatePasswordView.swift */,
+				A3FACB3E2A8F65DF00A17046 /* CompleteSignUpView.swift */,
 			);
 			name = Authentication;
 			sourceTree = "<group>";
@@ -189,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				A3BE01822A824702001AD0BA /* ProfileView.swift */,
+				A3FACB422A8F91B700A17046 /* CurrentUserProfileView.swift */,
+				A3FACB482A90E35100A17046 /* ProfileHeaderView.swift */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -294,18 +318,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A347469A2A8A25FF00B61FFD /* FeedView.swift in Sources */,
+				A3FACB452A8FC63A00A17046 /* Post.swift in Sources */,
 				A3BE01832A824702001AD0BA /* ProfileView.swift in Sources */,
 				A3BE01812A814BBF001AD0BA /* TabMainView.swift in Sources */,
+				A3FACB3D2A8F633900A17046 /* CreatePasswordView.swift in Sources */,
 				A3FACB332A8ADEAD00A17046 /* AddEmailView.swift in Sources */,
 				A34746902A8655BC00B61FFD /* SwiftUIView.swift in Sources */,
+				A3FACB492A90E35100A17046 /* ProfileHeaderView.swift in Sources */,
 				A3FACB352A8BD84200A17046 /* CreateUserName.swift in Sources */,
+				A3FACB3F2A8F65DF00A17046 /* CompleteSignUpView.swift in Sources */,
+				A3FACB412A8F708400A17046 /* User.swift in Sources */,
 				A3FACB2F2A8A67A200A17046 /* SearchView.swift in Sources */,
 				A347469C2A8A261400B61FFD /* FeedCell.swift in Sources */,
 				A34746962A86795200B61FFD /* UserStatView.swift in Sources */,
-				A34746982A8802F900B61FFD /* SwiftUIViewjkj.swift in Sources */,
+				A3FACB392A8D5DF800A17046 /* BoundsCount.swift in Sources */,
+				A34746982A8802F900B61FFD /* TextLernSystem.swift in Sources */,
 				A3996E7F2A8270A500A06053 /* TraningVZHstack.swift in Sources */,
+				A3FACB472A8FE5DB00A17046 /* PostsGridView.swift in Sources */,
 				A3BE01682A8143BD001AD0BA /* ContentView.swift in Sources */,
 				A3FACB372A8BDABE00A17046 /* IGTextFieldModifier.swift in Sources */,
+				A3FACB432A8F91B700A17046 /* CurrentUserProfileView.swift in Sources */,
 				A3FACB312A8A769C00A17046 /* LoginView.swift in Sources */,
 				A34746922A8656E800B61FFD /* SwiftUIVieww.swift in Sources */,
 				A3BE01662A8143BD001AD0BA /* InstagramxxxApp.swift in Sources */,

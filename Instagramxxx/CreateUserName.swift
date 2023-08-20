@@ -33,7 +33,7 @@ struct CreateUserName: View {
                 .padding(.top)
             
             NavigationLink {
-                CreateUserName()
+                CreatePasswordView()
                     .navigationBarBackButtonHidden(true)
             } label: {
                 Text("Next")
